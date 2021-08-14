@@ -1,0 +1,2 @@
+include ':StyleableSeekBar'
+rootProject.name = "SeekBar"

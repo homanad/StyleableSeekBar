@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="StyleableSeekBar">
+        <attr name="sb_dotCount" format="integer" />
+        <attr name="sb_style" format="enum">
+            <enum name="circular" value="0" />
+            <enum name="rounded_rectangle" value="1" />
+            <enum name="diamond" value="2" />
+            <enum name="rectangle" value="3" />
+            <enum name="triangle" value="4" />
+            <enum name="hexagon" value="5" />
+        </attr>
+        <attr name="sb_rounded_radius" format="dimension" />
+        <attr name="sb_activeColor" format="color" />
+        <attr name="sb_inactiveColor" format="color" />
+        <attr name="sb_minimumValue" format="integer" />
+        <attr name="sb_progress_startColor" format="color" />
+        <attr name="sb_progress_endColor" format="color" />
+        <attr name="sb_dotMargin" format="dimension" />
+        <attr name="sb_selected_borderColor" format="color" />
+        <attr name="sb_selected_borderWidth" format="dimension" />
+        <attr name="sb_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>
